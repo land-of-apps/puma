@@ -2,5 +2,4 @@
 version: ~> 1.0
 
 script:
-- brew install ragel
 - bundle exec rake
