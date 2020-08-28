@@ -1,0 +1,4 @@
+name: pumpa
+
+packages:
+- path: lib

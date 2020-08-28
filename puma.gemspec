@@ -28,4 +28,5 @@ Gem::Specification.new do |s|
 
   s.license = "BSD-3-Clause"
   s.required_ruby_version = Gem::Requirement.new(">= 2.2")
+  s.add_dependency("appmap")
 end
