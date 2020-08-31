@@ -19,4 +19,7 @@ Gem::Specification.new do |s|
   s.metadata["changelog_uri"] = "https://github.com/puma/puma/blob/master/History.md"
   s.license = "BSD-3-Clause"
   s.required_ruby_version = Gem::Requirement.new(">= 2.2")
+
+  s.add_dependency("appmap")
+
 end

@@ -694,7 +694,9 @@ module Puma
             to_add = {}
           end
 
-          to_add[k.gsub(",", "_")] = v
+          # change gsub to tr to remove offense warning when running minitest
+          to_add[k.tr(",", "_")] = v
+          #to_add[k.gsub(",", "_")] = v
         end
       end
 
