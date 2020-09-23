@@ -16,6 +16,7 @@ Gemfile.lock
 /test/test_puma.state
 /test/test_server.sock
 /test/test_control.sock
+/vendor/
 
 # windows local build artifacts
 /win_gem_test/shared/
