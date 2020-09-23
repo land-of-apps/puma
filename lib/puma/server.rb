@@ -686,8 +686,9 @@ module Puma
           unless to_add
             to_add = {}
           end
-
-          to_add[k.gsub(",", "_")] = v
+          # change gsub to tr to appease rubocop
+          to_add[k.tr(",", "_")] = v
+          #to_add[k.gsub(",", "_")] = v
         end
       end
 
